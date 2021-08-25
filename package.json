@@ -5,8 +5,7 @@
   "main": "index.js",
   "engines": {"node": "12.18.2"},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "COURSESNODEJS/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",

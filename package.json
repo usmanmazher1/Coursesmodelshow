@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {"node": "12.18.2"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "COURSESNODEJS/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.13.8",
     "nodemon": "^2.0.12"
-  }
+  },
+  "engines": {
+    "node": ">=12.18.2"}
 }
